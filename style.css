@@ -40,7 +40,7 @@ width: 80vw;
 header{
     
     display: flex;
-    
+    height: auto;
     width: 100%;
     flex-wrap: wrap;
     justify-content: center;
