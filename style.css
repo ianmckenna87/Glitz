@@ -101,7 +101,7 @@ header>p{
 h2{
 
     font-style: italic;
-    font-weight: lighter;
+   
     
     width: 75%;
     margin: auto;
@@ -164,7 +164,7 @@ object-fit: fill;
     width: 25vw;
     height: 25vw;
     
-    object-fit: fill;
+    
    
 }
  }
