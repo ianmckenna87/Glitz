@@ -193,6 +193,16 @@ width: 33vh;
 height: 33vh;
 border-radius: var(--border);
 
+@media screen and (max-width:600px){
+    .slides{
+     
+    width: 25vw;
+    height: 25vw;
+ 
+    }
+ }
+
+
 
 padding: 5vh;
 }
