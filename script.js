@@ -1,21 +1,3 @@
-//Zoom function
-function zoom(event){
-console.log("test");
-
-let pic = event.target.style;
-
-if (pic.width === "25vw"){
-
-    pic.width = "50vw";
-    pic.height = "50vw";
-    
-}else{
-    pic.width = "25vw";
-    pic.height = "25vw";
-}
-
-}
-
 //carousel function:
 function carousel() {
   var i;
@@ -28,6 +10,26 @@ function carousel() {
   x[slideIndex-1].style.display = "block";
   setTimeout(carousel, 2000); // Change image every 2 seconds
 }
+
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the header
+var header = document.querySelector("header");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.scrollY > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+
+
 
 //main body of script:
 var slideIndex = 0;
