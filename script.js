@@ -21,9 +21,6 @@ function stickyHeader() {
   }
 }
 
-
-
-
 // Get the header
 var header = document.querySelector("header");
 

@@ -19,16 +19,16 @@
 <script src="https://kit.fontawesome.com/868021f298.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <img class = "logo animate__animated animate__fadeIn animate"src = "assets/media/logo/glitzlogo.jpg">
-        <div class="contact-block font-dancing font-size-medium">
-            <div class = "contact"><a href ="tel:07450950098"><i class="fa-solid fa-phone"></i><p>tel:07450950098</p></a></div>
-            <div class = "contact"><a href="mailto:glitzballoons@aol.com"><i class="fa-solid fa-envelope"></i><p>glitzballoons@aol.com</p></a></div>
+    <header class = "flex justify-content z-top width-100 background">
+        <img id = "logo" class = "responsive animate__animated animate__fadeIn animate"src = "assets/media/logo/glitzlogo.jpg">
+        <div id = "contact-block" class="font-dancing flex content-align font-normal">
+            <div class = "padded"><a class= "text-decor-none text-color-black" href ="tel:07450950098"><i class="fa-solid fa-phone"></i><p>tel:07450950098</p></a></div>
+            <div class = "padded"><a class= "text-decor-none text-color-black" href="mailto:glitzballoons@aol.com"><i class="fa-solid fa-envelope"></i><p>glitzballoons@aol.com</p></a></div>
         </div>
     </header>  
-    <div class = "intro">   
-        <h2 class="font-dancing font-size-medium animate__animated animate__fadeIn animate__delay-1s">Welcome to Glitz Balloons & Events, the ultimate destination for all your party and event supply requirements!</h2> 
-        <p class= "animate__animated animate__fadeIn animate__delay-2s blurb">
+    <div class = "intro font-normal font-lighter">   
+        <h2 class="heading text-align-center font-dancing font-size-medium animate__animated animate__fadeIn animate__delay-1s">Welcome to Glitz Balloons & Events, the ultimate destination for all your party and event supply requirements!</h2> 
+        <p class= "animate__animated animate__fadeIn animate__delay-2s">
             We offer a range of personalized balloons, hat box hampers, sequin walls, light-up numbers & letters, event decor,
             the all white bouncy castles, 
             and soft play equipment to add some glitz and glamour to your special occasion.
@@ -42,26 +42,26 @@
         
     </div>
     
-    <div class = "gallery animate__animated animate__fadeIn animate__delay-3s">
-        <img class = "gallery-item" src="assets/media/images/sequin.jpg">
-        <img class = "gallery-item" src="assets/media/images/dreamy.jpg">
-        <img class = "gallery-item" src="assets/media/images/blue.jpg">
-        <img class = "gallery-item" src="assets/media/images/personalballoon.jpg">
+    <div id ="gallery" class = " flex center justify-content animate__animated animate__fadeIn animate__delay-3s">
+        <img class = "responsive" src="assets/media/images/sequin.jpg">
+        <img class = "responsive" src="assets/media/images/dreamy.jpg">
+        <img class = "responsive" src="assets/media/images/blue.jpg">
+        <img class = "responsive" src="assets/media/images/personalballoon.jpg">
 
     </div>
 
-    <h3 class ="font-dancing font-size-medium animate__animated animate__fadeIn animate__delay-3s centered">Browse our range of products and services today and let us help you add some glitz and glamour to your next event!</h3>
-    <div class="flex aligned centered">
-        <img class ="slides" src="assets/media/images/IMG-20240124-WA0007.jpg">
-        <img class ="slides" src="assets/media/images/IMG-20240124-WA0009.jpg">
-        <img class ="slides" src="assets/media/images/IMG-20240124-WA0010.jpg">
-        <img class ="slides" src="assets/media/images/image4.jpeg">
-        <img class ="slides" src="assets/media/images/60.jpg">
-        <img class ="slides" src="assets/media/images/image3.jpeg">
+    <h3 class =" heading font-dancing font-size-medium animate__animated animate__fadeIn animate__delay-3s centered text-align-center">Browse our range of products and services today and let us help you add some glitz and glamour to your next event!</h3>
+    <div id ="slides container" class="flex justify-content content-align">
+        <img class ="slides responsive fit-cover" src="assets/media/images/IMG-20240124-WA0007.jpg">
+        <img class ="slides responsive fit-cover" src="assets/media/images/IMG-20240124-WA0009.jpg">
+        <img class ="slides responsive fit-cover" src="assets/media/images/IMG-20240124-WA0010.jpg">
+        <img class ="slides responsive fit-cover" src="assets/media/images/image4.jpeg">
+        <img class ="slides responsive fit-cover" src="assets/media/images/60.jpg">
+        <img class ="slides responsive fit-cover" src="assets/media/images/image3.jpeg">
         
-        <div class = "block">
-            <summary>We cater for:</summary>
-            <ul>
+        <div>
+            <summary class ="text-align-center heading">We cater for:</summary>
+            <ul class = "font-normal font-lighter">
                 <li>Birthdays</li>
                 <li>weddings</li>
                 <li>Christenings</li>
@@ -77,13 +77,9 @@
 
 
 </body>
-
-
-
-
-    <footer>
-    <div class = "social animate__animated animate__fadeIn animate__delay-2s">
-        <h4 class="font-dancing font-size-medium">...Find us on social media!</h4><i class="fa-brands fa-facebook fa-fade fa-2xl"></i><i class="fa-brands fa-instagram fa-fade fa-2xl"></i>
+<footer>
+    <div class = "content-align flex justify-content animate__fadeIn animate__delay-2s">
+        <h4 class="heading font-dancing">...Find us on social media!</h4><i class="fa-brands fa-facebook fa-fade fa-2xl padded"></i><i class="fa-brands fa-instagram fa-fade fa-2xl padded"></i>
     </div>
 </footer>
 <script src= "script.js"></script>
