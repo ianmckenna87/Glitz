@@ -145,3 +145,9 @@ font-weight: lighter;
 .padded{
 padding-left: var(--padding);
 }
+
+#logo
+{
+    width:auto;
+    height:20vh;
+}
