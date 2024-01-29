@@ -13,8 +13,18 @@ overflow-x: hidden;
 
     position: fixed;
     top: 0;
-    width: 100%
+    width: 100%;
+    
 }
+
+.intro{
+
+    padding: 16px;
+}
+
+.sticky + .intro {
+    padding-top: 102px;
+  }
 
  @media screen and (max-width:600px){
     
@@ -28,9 +38,9 @@ overflow-x: hidden;
 }
 
 header{
-
+    
     display: flex;
-    margin:auto;
+    
     width: 100%;
     flex-wrap: wrap;
     justify-content: center;
